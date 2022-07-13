@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+    background-color: black;
+}
+
+p {
+    padding: 0;
+}
+
+.header-content {
+    text-align: center;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 40px;
+}
+
+.header-name {
+    font-size: 50px;
+}
+
+.header-dob {
+    font-size: 20px;
+    font-kerning: normal;
+    padding-top: 10px;
+}
+
+.section-1 {
+    background-color: #fff;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-content: space-evenly; */
+}
+
+.quote {
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+    overflow-wrap: normal;
+    display: block;
+    margin: auto;
+    margin-left: 150px;
+    padding: 100px;
+}
+
+.image {
+    /* display: block;
+    margin: auto; */
+    width: 45%; 
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-2 {
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.bio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    margin:30px;
+}
